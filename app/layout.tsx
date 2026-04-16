@@ -1,6 +1,10 @@
 import "./ui/global.css";
 import { inter } from "./ui/fonts";
 
+export const metadata = {
+  title: "Dashboard Next.js App",
+};
+
 export default function RootLayout({
   children,
 }: {
